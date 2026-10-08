@@ -3,5 +3,8 @@ __pycache__/
 .venv/
 venv/
 dashboard_env/
+node_modules/
+.angular/
+dist/
 .env
 .streamlit/secrets.toml

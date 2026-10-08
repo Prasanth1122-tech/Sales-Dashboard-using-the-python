@@ -1,36 +1,27 @@
-# Sales Dashboard - Python + Streamlit
+# Sales Dashboard - Angular
 
-## Run on your computer
+## Run locally
 
-1. Install Python 3.10+
-2. Open this folder in VS Code or Command Prompt.
-3. Create environment:
+1. Install Node.js 20.19+.
+2. Open this folder in a terminal.
+3. Install dependencies:
 
-```bash
-python -m venv dashboard_env
+```powershell
+npm install
 ```
 
-Windows:
-```bash
-dashboard_env\Scripts\activate
+4. Start the development server:
+
+```powershell
+npm start
 ```
 
-4. Install packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-5. Start:
-
-```bash
-streamlit run app.py
-```
+Open http://localhost:3000.
 
 ## Excel columns
 
-Date, Product, Category, Region, Sales, Quantity, Profit
+Date, Product, Category, Region, Sales, Quantity, Profit. The dashboard supports
+Excel workbook uploads and combines worksheets containing these columns.
 
-The dashboard includes Excel upload, filters, KPI cards, monthly trend,
-category/region charts, profit analysis, top products, sales-vs-profit,
-recent data, and CSV download.
+The dashboard includes multi-select filters, KPI cards, interactive charts,
+recent sales data, and filtered CSV download.
