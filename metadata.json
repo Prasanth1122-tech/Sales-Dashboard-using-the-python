@@ -1,0 +1,6 @@
+{
+  "name": "Sales Analytics Dashboard",
+  "description": "Interactive business sales analytics dashboard with KPI metrics, monthly trends, categorical breakdown, regional performance, scatter analysis, Excel file upload, filtering, and data export.",
+  "permissions": [],
+  "capabilities": []
+}
